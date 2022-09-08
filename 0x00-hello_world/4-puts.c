@@ -1,19 +1,19 @@
 /*
  * File: 4-puts.c
- * Auth: Muyideen
- * 
+ * Auth: Brennan D Baraban <375@holbertonschool.com>
  */
 
-#include<stdio.h>
-int main(void)
+#include <stdio.h>
 
 /**
- * main - Entry point
- * Description: This program is about using put to output on stdio
- * Return: Always 0 
+ * main - Prints "Programming is like building a multilingual
+ *                puzzle, followed by a new line.
+ *
+ * Return: Always 0.
  */
-	{
-		puts("\"Programming is like building a multilingual puzzle");
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
 
-		return (0);
-	}
+	return (0);
+}
