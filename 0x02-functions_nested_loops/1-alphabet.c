@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * main - unction that prints 10 times the alphabet, in lowercase, 
- * 	followed by a new line.
+ * main - unction that prints 10 times the alphabet, in lowercase,
+ *	followed by a new line.
  *
  * Return: Always 0 (success)
  */
 
-void print_alphabet()
+void print_alphabet(void)
 {
 	int letter;
 
-	for(letter =  'a'; letter <= 'z'; letter++)
+	for (letter =  'a'; letter <= 'z'; letter++)
 		_putchar(letter);
 
 	_putchar('\n');
