@@ -1,10 +1,9 @@
 #include "main.h"
 
 /**
- * main - unction that prints 10 times the alphabet, in lowercase,
+ * print_alphabet - unction that prints 10 times the alphabet, in lowercase,
  *	followed by a new line.
  *
- * Return: Always 0 (success)
  */
 
 void print_alphabet(void)
