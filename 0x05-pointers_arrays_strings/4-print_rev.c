@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * print_rev - This program print string in reverse 
+ * print_rev - This program print string in reverse
  *
  * @s: Parameter
  *
@@ -11,18 +11,14 @@
  **/
 void print_rev(char *s)
 {
-	int i, j;
-	char temp;
+	int i = 0;
 
-	i=0;
-	j=strlen(s)-1;
-	while(i<j)
-	{
-		temp=s[i];
-		s[i]=s[j];
-		s[j]=temp;
+	while (s[i])
 		i++;
-		j--;
+	while (i--)
+	{
+		_putchar(s[i]);
 	}
-	puts(s);
+	_putchar('\n');
+
 }
