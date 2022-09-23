@@ -15,8 +15,5 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	char string_concate[100];
-	string_concate = strncat(dest, src, n);
-
-	return (string_concate);
+	return (strncat( dest, src, n));
 }
