@@ -4,36 +4,24 @@
 /**
  * struct dog - a new type
  *
- * @name: the name of the dog (Bingo)
- * @age: the age of the dog ()
- * @owner: the name of the owner (Muyi)
- * @print_dog: Prints dog infor
+ * @name: the name of the dog (Django)
+ * @age: the age of the dog (3.5)
+ * @owner: the name of the owner (Jay)
  */
-
 typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 }
-	typedef struct dog dog_t; /** 3. Outside of a dog, a book is a man's
-				   * best friend. Inside of a dog it's
-				   * too dark to read
-				   **/
+	dog;
+/*task three, new type dog_t as new name of strcut dog */
+typedef struct dog dog_t;
 
+int _putchar(char c);
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
 
-	dog; /*0. Poppy */
-
-	void init_dog(struct dog *d, char *name, float age, char *owner);
-	/**
-	 * 1. A dog is the only thing on earth
-	 * that loves you more than you love yourself
-	 **/
-
-	void print_dog(struct dog *d); /** 2. A dog will teach you unconditional love.
-					* If you can have that in your life,
-					* things won't be too bad
-					**/
-
-#endif /*dog.h*/
-
+#endif /* DOG */
