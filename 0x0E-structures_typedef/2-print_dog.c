@@ -11,6 +11,11 @@ void print_dog(struct dog *d)
 {
 	if (d != NULL)
 	{
+		/* I print as the example */
+		/* I use the ? operator */
+		/* return its left-hand operand if is not null */
+		/* otherwise,evaluates the righ operand and return its result*/
+
 		if (d->name != NULL)
 			printf("Name: %s\n", d->name);
 		else
