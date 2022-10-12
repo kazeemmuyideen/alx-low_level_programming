@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * main - this function prints the file name of the program
  *
@@ -6,7 +8,6 @@
  * Return: 0 is success
  **/
 
-#include <stdio.h>
 
 int main(void)
 {
