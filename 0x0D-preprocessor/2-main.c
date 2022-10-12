@@ -1,17 +1,13 @@
 #include <stdio.h>
-
 /**
- * main - this function prints the file name of the program
+ * main - prints the name of the file it was compiled from
  *
- *@void: Paameter with no value
+ * @void: no parameters
  *
  * Return: 0 is success
- **/
-
-
+ */
 int main(void)
 {
-	printf("%s\n ", __FILE__);
-
+	printf("%s\n", __FILE__);
 	return (0);
 }
