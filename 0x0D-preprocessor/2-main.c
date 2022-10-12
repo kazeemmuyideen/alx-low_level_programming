@@ -3,7 +3,7 @@
  *
  *@void: Paameter with no value
  *
- * Return: Always 0
+ * Return: 0 is success
  **/
 
 #include <stdio.h>
