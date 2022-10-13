@@ -18,6 +18,5 @@ void print_name(char *name, void (*f)(char *))
 		/* to the pointer name */
 		/* f receive a char *, and *name is type char */
 		f(name);
-		
 	}
 }
